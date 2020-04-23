@@ -1,0 +1,536 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@font-face {
+  font-family: 'iconos';
+  src: url("../fonts/icomoon/icomoon.eot");
+  src: url("../fonts/icomoon/icomoon.eot?#iefix") format('embedded-opentype'), 
+    url("../fonts/icomoon/icomoon.ttf") format('truetype'), 
+    url("../fonts/icomoon/icomoon.woff") format('woff'), 
+    url("../fonts/icomoon/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #ECF4FF; 
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.customers {
+  background: #ECF4FF; 
+  margin-top: 64px;
+  padding: 32px 18px 41px 28px;  
+}
+
+.customers__title {  
+  color: #7794C9;
+  font-size: 18px;
+  font-weight: bold;  
+}
+
+.customers__logos {
+  text-align: center;
+}
+
+.customers__logos img {
+  display: inline-block;  
+  margin: 38px 15px 0 0px;
+  vertical-align: middle;
+  width: 27%;
+}
+
+.footer {
+  background: #00236E;
+  height: 45px;      
+  position: absolute;
+  width: 100%;  
+}
+
+.footer__logo {
+  display: none;
+}
+
+.footer__links {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.footer__links a {
+  color: #F8FBFF;
+  display: inline-block;  
+  font-size: 12px;  
+  font-weight: bold;
+  margin: 0 20px;
+  text-decoration: none; 
+}
+
+.footer__links a:nth-child(2) {
+  display: none;
+}
+
+.header {  
+  background: white; 
+  padding: 36px 29px 34px 24px;
+}
+
+.header__logo {  
+  display: inline-block;  
+  vertical-align: middle;
+  width: 167px;
+}
+
+.header__link {  
+  color: #1063DC;
+  display: inline-block;  
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4px;
+  text-decoration: none;  
+  vertical-align: middle;  
+}
+
+.insure {
+  background: #ECF4FF; 
+  padding: 28px 24px 0 24px;
+}
+
+.insure__content
+.insure__image{
+  width: 100%;  
+}
+
+.insure__title {
+  color: #00236E;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.insure__description {
+  color: #667696;  
+  line-height: 1.5;
+  margin: 27px 0 24px 0;    
+  margin-right: 10px;
+}
+
+.insure__button, .saveTime__button {
+  text-align: center;
+}
+
+.insure__image {
+  text-align: center;
+}
+
+.insure__image img {
+  margin-top: 65px;  
+  width: 100%;  
+  max-width: 400px;
+}
+
+.insurances {
+  margin: 40px 0;  
+  text-align: center;
+}
+
+.insurances__content,
+.insurances__top, 
+.insurances__bottom {
+  text-align: center;
+}
+
+.insurances__content {  
+  display: inline-block;
+  margin: 30px;    
+  text-align: center;
+}
+
+.insurances__top img, 
+.insurances__bottom img {
+  width: 25%;  
+  margin: 0 5px;
+  max-width: 130px;  
+}
+
+.insurances__button {
+  margin: 30px 30px 0 30px;
+}
+
+.insurances__title {
+  color: #00236E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.insurances__description {
+  color: #667696;
+  line-height: 24px;
+  margin: 20px 30px 30px 0;
+  text-align: left;
+}
+
+.saveTime {
+  background: #F8FBFF;  
+  padding: 65px 25px 25px 24px;  
+}
+
+.saveTime__title{
+  color: #00236E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.saveTime__description {
+  color: #667696;  
+  margin-top: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.saveTime__steps {  
+  text-align: center;  
+}
+
+.saveTime__step {    
+  display: inline-block; 
+  margin-bottom: 60px;  
+  max-width: 300px;
+}
+
+.saveTime__stepText {
+  color: #00236E;   
+  font-size: 16px;
+  font-weight: bold;  
+  margin-bottom: 34px;
+  padding: 0 26px;
+}
+
+.saveTime__stepImage {  
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.share {    
+  border-radius: 10px;
+  box-shadow: 7px 7px #B0D3FF;  
+  margin: 40px; 
+}
+
+.share__content {
+  padding: 40px 20px 20px 20px;
+}
+
+.share__title {
+  color: #00236E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.share__description {
+  color: #667696;
+  line-height: 24px;
+  margin: 20px 30px 30px 0;
+  text-align: left;
+}
+
+.share__image {
+  padding: 20px 40px 20px 20px;
+  text-align: right;
+}
+
+.share__image img {
+  text-align: right;
+  width: 200px;  
+}
+
+.mission {
+  margin: 80px 25px 25px 25px;
+}
+
+.mission__title {
+  color: #00236E;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 28px;
+  text-align: left;  
+}
+
+.mission__description {
+  color: #667696;
+  line-height: 24px;
+  margin: 20px 30px 30px 0;
+  text-align: left;
+}
+
+.mission__image {
+  text-align: center; 
+}
+
+.mission__image img {
+  max-width: 300px;
+}
+
+.buttonLink {
+  background: #1BD741;  
+  border: 0;
+  border-radius: 10px;
+  color: #FFFFFF;  
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 25px;
+  text-decoration: none;
+}
+
+.whatsapp__button {
+  background-color:#25d366;	
+	border-radius: 50%;	
+  color:#FFF;
+  display: none;  
+  font-size:30px;  
+  text-decoration: none;  
+  text-align: center;  
+  position:fixed;
+  bottom:40px;
+	right:40px;  
+	width:60px;
+	height:60px;	
+  z-index:100;
+}
+
+.icon {
+  color: #ffffff;
+  font-family: "iconos";
+  font-size: 32px; 
+}
+
+.icon--whatsapp {  
+  display: inline-block;  
+  margin-top: 11px;
+  margin-left: 1px;
+}
+
+.icon--whatsapp:before {  
+  content: "\ea93";  
+}
+
+@media (min-width: 500px) {
+  
+  .ssaveTime__step {
+    width: 50%;    
+  }
+  
+}
+
+@media (min-width: 600px) {
+  
+  .customers__logos img {
+    margin: 38px 20px 0 20px;
+    width: 20%;
+  }
+  
+  .insurances__top img,
+  .insurances__bottom img{
+    margin: 0 30px;
+  }
+  
+  .insurances__content {
+    margin: 50px 30px;     
+    width: 80%;
+  }
+  
+  .saveTime__step {
+    margin-right: 50px;
+  }
+  
+  .share__content {
+    display: inline-block;
+    padding: 20px;
+    width: 45%;
+  }
+  
+  .share__image {
+    display: inline-block;
+    padding: 20px 0;
+    width: 45%;
+  }
+  
+}
+
+@media (min-width: 680px) {
+  
+  .footer__links a {
+    width: 25%;
+  }
+  
+  .footer__links a:nth-child(2) {
+    display: inline-block;
+  }
+  
+  .insurances__top img,
+  .insurances__bottom img {
+    margin: 0 40px;    
+  }
+  
+  .insurances__content {
+    display: inline-block;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  
+  .customers {    
+    padding-left: 67px;  
+  }
+  
+  .customers__logos img {        
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 10%;    
+  }
+  
+  .footer {
+    height: 80px;
+  }
+  
+  .footer__logo,
+  .footer__links {
+    display: inline-block;
+  }
+  
+  .footer__logo {    
+    margin-top: 25px;
+    padding-left: 65px;    
+    width: 25%;
+  }
+  
+  .footer__logo img {        
+    vertical-align: middle;
+    width: 210px;
+  }
+  
+  .footer__links {    
+    width: 65%;
+  }
+  
+  .footer__links a {        
+    vertical-align: middle;   
+  }
+  
+  .header {      
+    padding-left: 67px;
+    padding-right: 68px;
+  }
+  
+  .insure {    
+    padding-top: 48px;
+    padding-left: 67px;
+  }
+  
+  .insure__content,
+  .insure__image{
+    display: inline-block;    
+    vertical-align: top;
+    width: 48%;  
+  }
+  
+  .insure__content{
+    margin-top: 32px;    
+  }
+  
+  .insure__button {
+    text-align: left;
+  }
+  
+  .insure__image img{
+    margin-top: 0;
+    max-width: 500px;
+  }
+  
+  .mission {
+    margin: 100px 70px 100px 80px;
+    text-align: center;
+  }
+  
+  .mission__image, .mission__content {
+    display: inline-block;    
+    vertical-align: top;
+    width: 45%;
+  }
+  
+  .mission__title {
+    margin-top: 0;
+  }
+  
+  .mission__button {
+    text-align: left;
+  } 
+  
+  .saveTime__step {    
+    margin: 0 40px;
+    width: 23%;
+  }
+  
+  .saveTime__title {
+    margin: 0 auto;
+    width: 490px;
+  }
+  
+  .saveTime__steps {
+    margin-bottom: 50px;
+  }
+  
+  .saveTime__stepImage--second {
+    height: 233px;
+  }  
+  
+  .saveTime__stepText {
+    display: inline-block;
+    height: 40px;    
+    vertical-align: middle;
+  }
+  
+  .share {
+    margin: 25px 70px 25px 80px;
+  }
+  
+  .share__content {
+    padding: 30px 20px 30px 40px;
+  }
+  
+  .share__image {
+    margin-top: 20px;
+    width: 40%;
+  }
+  
+}
+
+@media (min-width: 1100px) {
+    
+  .mission__title, 
+  .mission__description{
+    width: 400px;
+  }
+  
+  .insurances__top img,
+  .insurances__bottom img {
+    margin: 0 80px;    
+  }    
+  
+  .whatsapp__button {    
+    display: inline-block;
+  }
+  
+}
