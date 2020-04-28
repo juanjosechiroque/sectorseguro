@@ -68,6 +68,8 @@ body {
 .header {  
   background: white; 
   padding: 36px 29px 34px 24px;
+  position: fixed;
+  width: 100%;
 }
 
 .header__logo {  
@@ -78,18 +80,19 @@ body {
 
 .header__link {  
   color: #1063DC;
-  display: inline-block;  
-  float: right;
+  display: inline-block;    
   font-size: 16px;
   font-weight: bold;
   margin-top: 4px;
+  position: absolute;
+  right: 80px;
   text-decoration: none;  
   vertical-align: middle;  
 }
 
 .insure {
-  background: #ECF4FF; 
-  padding: 28px 24px 0 24px;
+  background: #ECF4FF;   
+  padding: 110px 24px 0 24px;
 }
 
 .insure__content
@@ -428,6 +431,11 @@ body {
     padding-left: 67px;
     padding-right: 68px;
   }
+  
+  .header__link {      
+    right: 180px;
+  }
+
   
   .insure {    
     padding-top: 48px;
